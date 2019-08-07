@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "The server application for Phantastic Casino.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhantasticCasino/PhantasticCasino.git"
+  },
+  "author": "Leon Willens <lvilents@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/PhantasticCasino/PhantasticCasino/issues"
+  },
+  "homepage": "https://github.com/PhantasticCasino/PhantasticCasino#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.19.1",
+    "objection": "^1.6.9"
+  }
+}
