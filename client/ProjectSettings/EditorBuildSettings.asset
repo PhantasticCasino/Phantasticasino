@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_scenes/casino.unity
     guid: ea02f3699b4f53048ab686d8bab2a53c
+  - enabled: 1
+    path: Assets/_scenes/spin_your_soul.unity
+    guid: ca136477e9844654091c883ad98411b8
   m_configObjects: {}

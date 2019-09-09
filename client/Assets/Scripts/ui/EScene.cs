@@ -2,6 +2,6 @@
 {
     public enum EScene
     {
-        LOGIN, MAIN, CASINO
+        LOGIN, MAIN, CASINO, SPIN_YOUR_SOUL
     }
 }

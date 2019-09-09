@@ -12,7 +12,7 @@ namespace PhantasticCasino.UI
 
         public void SpinYourSoulAction()
         {
-            // Go to Spin your Soul
+            SceneManager.LoadScene((int)EScene.SPIN_YOUR_SOUL, LoadSceneMode.Single);
         }
     }
 }
