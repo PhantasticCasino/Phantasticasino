@@ -1,11 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using PhantasticCasino.Util;
 
 namespace PhantasticCasino.UI
 {
-    public class SpinYouSoulView : MonoBehaviour
+    public class SpinYourSoulView : MonoBehaviour
     {
         private SpinningWheel _spinningWheel;
 
