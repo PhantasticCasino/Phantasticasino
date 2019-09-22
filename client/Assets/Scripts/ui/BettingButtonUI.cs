@@ -18,7 +18,7 @@ namespace PhantasticCasino.UI
         {
             _bettingUI = GetComponentInParent<SpinYourSoulBettingUI>();
             _btn = GetComponentInChildren<Button>();
-            _betText = GetComponentInChildren<Text>();
+            _betText = this.GetClosestComponentInChildren<Text>(false, false);
             _btn.onClick.AddListener(() => AddBetValue());
         }
 

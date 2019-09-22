@@ -39,7 +39,7 @@ namespace PhantasticCasino.Util
 
                 _winningIndex = Random.Range(0, prize.Count);
                 Debug.Log("Item number: " + _winningIndex);
-                Debug.Log("Target prize: " + prize[_winningIndex]);
+                Debug.Log("Target prize: " + BettingUI.ButtonUIs[prize[_winningIndex]].BetValue);
 
                 float maxAngle = (360 * _fullRotations) + (_winningIndex * _anglePerItem) + (_anglePerItem / 2);
                 Debug.Log("Max angle: " + maxAngle);
