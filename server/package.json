@@ -18,7 +18,7 @@
   "homepage": "https://github.com/PhantasticCasino/PhantasticCasino#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "knex": "^0.19.1",
+    "knex": "^2.4.0",
     "objection": "^1.6.9"
   }
 }
